@@ -148,65 +148,6 @@
         "className": "",
         "data": {
           "sourceHandle": {
-            "dataType": "File",
-            "id": "File-8JDCx",
-            "name": "message",
-            "output_types": [
-              "Message"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "data_inputs",
-            "id": "CustomComponent-XNH0b",
-            "inputTypes": [
-              "Data",
-              "DataFrame",
-              "Message"
-            ],
-            "type": "other"
-          }
-        },
-        "id": "xy-edge__File-8JDCx{œdataTypeœ:œFileœ,œidœ:œFile-8JDCxœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-CustomComponent-XNH0b{œfieldNameœ:œdata_inputsœ,œidœ:œCustomComponent-XNH0bœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}",
-        "selected": false,
-        "source": "File-8JDCx",
-        "sourceHandle": "{œdataTypeœ:œFileœ,œidœ:œFile-8JDCxœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "CustomComponent-XNH0b",
-        "targetHandle": "{œfieldNameœ:œdata_inputsœ,œidœ:œCustomComponent-XNH0bœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}"
-      },
-      {
-        "animated": false,
-        "className": "",
-        "data": {
-          "sourceHandle": {
-            "dataType": "SplitText",
-            "id": "CustomComponent-XNH0b",
-            "name": "dataframe",
-            "output_types": [
-              "DataFrame"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "ingest_data",
-            "id": "Chroma-mLoxY",
-            "inputTypes": [
-              "Data",
-              "DataFrame"
-            ],
-            "type": "other"
-          }
-        },
-        "id": "xy-edge__CustomComponent-XNH0b{œdataTypeœ:œSplitTextœ,œidœ:œCustomComponent-XNH0bœ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}-Chroma-mLoxY{œfieldNameœ:œingest_dataœ,œidœ:œChroma-mLoxYœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}",
-        "selected": false,
-        "source": "CustomComponent-XNH0b",
-        "sourceHandle": "{œdataTypeœ:œSplitTextœ,œidœ:œCustomComponent-XNH0bœ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}",
-        "target": "Chroma-mLoxY",
-        "targetHandle": "{œfieldNameœ:œingest_dataœ,œidœ:œChroma-mLoxYœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}"
-      },
-      {
-        "animated": false,
-        "className": "",
-        "data": {
-          "sourceHandle": {
             "dataType": "OllamaEmbeddings",
             "id": "OllamaEmbeddings-1tWar",
             "name": "embeddings",
@@ -286,6 +227,93 @@
         "sourceHandle": "{œdataTypeœ:œChromaœ,œidœ:œChroma-Nxdqyœ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}",
         "target": "CustomComponent-DU7so",
         "targetHandle": "{œfieldNameœ:œinput_dataœ,œidœ:œCustomComponent-DU7soœ,œinputTypesœ:[œDataFrameœ,œDataœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "File",
+            "id": "File-8JDCx",
+            "name": "message",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "data_inputs",
+            "id": "CustomComponent-J5OHl",
+            "inputTypes": [
+              "Data",
+              "DataFrame",
+              "Message"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__File-8JDCx{œdataTypeœ:œFileœ,œidœ:œFile-8JDCxœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-CustomComponent-J5OHl{œfieldNameœ:œdata_inputsœ,œidœ:œCustomComponent-J5OHlœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "File-8JDCx",
+        "sourceHandle": "{œdataTypeœ:œFileœ,œidœ:œFile-8JDCxœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "CustomComponent-J5OHl",
+        "targetHandle": "{œfieldNameœ:œdata_inputsœ,œidœ:œCustomComponent-J5OHlœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "SplitText",
+            "id": "CustomComponent-J5OHl",
+            "name": "dataframe",
+            "output_types": [
+              "DataFrame"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "ingest_data",
+            "id": "Chroma-mLoxY",
+            "inputTypes": [
+              "Data",
+              "DataFrame"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__CustomComponent-J5OHl{œdataTypeœ:œSplitTextœ,œidœ:œCustomComponent-J5OHlœ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}-Chroma-mLoxY{œfieldNameœ:œingest_dataœ,œidœ:œChroma-mLoxYœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "CustomComponent-J5OHl",
+        "sourceHandle": "{œdataTypeœ:œSplitTextœ,œidœ:œCustomComponent-J5OHlœ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}",
+        "target": "Chroma-mLoxY",
+        "targetHandle": "{œfieldNameœ:œingest_dataœ,œidœ:œChroma-mLoxYœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "ChatInput",
+            "id": "ChatInput-lQHeA",
+            "name": "message",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "search_query",
+            "id": "Chroma-Nxdqy",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "query"
+          }
+        },
+        "id": "xy-edge__ChatInput-lQHeA{œdataTypeœ:œChatInputœ,œidœ:œChatInput-lQHeAœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Chroma-Nxdqy{œfieldNameœ:œsearch_queryœ,œidœ:œChroma-Nxdqyœ,œinputTypesœ:[œMessageœ],œtypeœ:œqueryœ}",
+        "selected": false,
+        "source": "ChatInput-lQHeA",
+        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-lQHeAœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Chroma-Nxdqy",
+        "targetHandle": "{œfieldNameœ:œsearch_queryœ,œidœ:œChroma-Nxdqyœ,œinputTypesœ:[œMessageœ],œtypeœ:œqueryœ}"
       }
     ],
     "nodes": [
@@ -596,7 +624,7 @@
         },
         "position": {
           "x": 263.97434033291995,
-          "y": 112.73361603947188
+          "y": 95.88920371749124
         },
         "selected": false,
         "type": "genericNode"
@@ -761,7 +789,7 @@
                 "tool_mode": false,
                 "trace_as_input": true,
                 "type": "prompt",
-                "value": "Context:\n{context}\n\nExample_Email:\n{Example_Email}\n\nYou are Hanna, a chatbot for study counseling that helps students with questions relating to admissions to Arcada University of Applied Sciences.\nIf not explicitly asked, only give information on degree programmes in English.\nFormulate the answer as an email. It should start with \"Dear Recipient\", and end with \"Sincerely, Arcada Admissions\"\nUse the provided context when answering the question.\nYou can also use the example email to help with formulating the answer.\n\nQuestion:\n{question}"
+                "value": "Context:\n{context}\n\nExample_Email:\n{Example_Email}\n\nYou are Hanna, a chatbot for study counseling that helps students with questions relating to admissions to Arcada University of Applied Sciences.\nIf not explicitly asked, only give information on degree programmes in English.\nFormulate the answer as an email. It should start with \"Dear Recipient\", and end with \"Sincerely, Arcada Admissions\"\n\nThe provided context is from the website of Arcada. Use it when answering the question.\n\nYou can also use the example email to help with formulating the answer.\n\nQuestion:\n{question}"
               },
               "tool_placeholder": {
                 "_input_type": "MessageTextInput",
@@ -849,7 +877,7 @@
             ],
             "frozen": false,
             "icon": "Ollama",
-            "last_updated": "2025-07-15T09:02:47.269Z",
+            "last_updated": "2025-07-16T13:44:26.160Z",
             "legacy": false,
             "lf_version": "1.5.0.post1",
             "metadata": {
@@ -1572,8 +1600,8 @@
           "width": 320
         },
         "position": {
-          "x": 135.91572395926698,
-          "y": 208.60375180103256
+          "x": 148.8729642069444,
+          "y": 218.9695439991745
         },
         "selected": false,
         "type": "genericNode"
@@ -1802,7 +1830,7 @@
                 "trace_as_input": true,
                 "trace_as_metadata": true,
                 "type": "str",
-                "value": "AI"
+                "value": "Chatbot Hanna"
               },
               "session_id": {
                 "_input_type": "MessageTextInput",
@@ -1916,7 +1944,7 @@
             "frozen": false,
             "icon": "file-text",
             "key": "File",
-            "last_updated": "2025-07-15T09:02:47.270Z",
+            "last_updated": "2025-07-16T13:44:52.320Z",
             "legacy": false,
             "lf_version": "1.5.0.post1",
             "metadata": {},
@@ -2103,7 +2131,7 @@
                   "gz"
                 ],
                 "file_path": [
-                  "40779134-711b-4d42-a962-b07df2fc7679/arcada_text_data_full (1).txt"
+                  "40779134-711b-4d42-a962-b07df2fc7679/arcada_text_data_full (3).txt"
                 ],
                 "info": "Supported file extensions: txt, md, mdx, csv, json, yaml, yml, xml, html, htm, pdf, docx, py, sh, sql, js, ts, tsx; optionally bundled in file extensions: zip, tar, tgz, bz2, gz",
                 "list": true,
@@ -2324,7 +2352,7 @@
               },
               "chroma_server_host": {
                 "_input_type": "StrInput",
-                "advanced": true,
+                "advanced": false,
                 "display_name": "Server Host",
                 "dynamic": false,
                 "info": "",
@@ -2339,7 +2367,7 @@
                 "tool_mode": false,
                 "trace_as_metadata": true,
                 "type": "str",
-                "value": ""
+                "value": "chroma:8000"
               },
               "chroma_server_http_port": {
                 "_input_type": "IntInput",
@@ -2508,7 +2536,7 @@
                 "tool_mode": false,
                 "trace_as_metadata": true,
                 "type": "str",
-                "value": "./chroma-db"
+                "value": "/app/chroma-db"
               },
               "search_query": {
                 "_input_type": "QueryInput",
@@ -2585,7 +2613,7 @@
         "dragging": false,
         "id": "Chroma-mLoxY",
         "measured": {
-          "height": 458,
+          "height": 540,
           "width": 320
         },
         "position": {
@@ -2739,224 +2767,6 @@
       },
       {
         "data": {
-          "id": "CustomComponent-XNH0b",
-          "node": {
-            "base_classes": [
-              "DataFrame"
-            ],
-            "beta": false,
-            "conditional_paths": [],
-            "custom_fields": {},
-            "description": "Split text into chunks based on specified criteria.",
-            "display_name": "Split Text",
-            "documentation": "https://docs.langflow.org/components-processing#split-text",
-            "edited": true,
-            "field_order": [
-              "data_inputs",
-              "chunk_overlap",
-              "chunk_size",
-              "separator",
-              "text_key",
-              "keep_separator"
-            ],
-            "frozen": false,
-            "icon": "scissors-line-dashed",
-            "legacy": false,
-            "lf_version": "1.5.0.post1",
-            "metadata": {},
-            "minimized": false,
-            "output_types": [],
-            "outputs": [
-              {
-                "allows_loop": false,
-                "cache": true,
-                "display_name": "Chunks",
-                "group_outputs": false,
-                "hidden": null,
-                "method": "split_text",
-                "name": "dataframe",
-                "options": null,
-                "required_inputs": null,
-                "selected": "DataFrame",
-                "tool_mode": true,
-                "types": [
-                  "DataFrame"
-                ],
-                "value": "__UNDEFINED__"
-              }
-            ],
-            "pinned": false,
-            "template": {
-              "_type": "Component",
-              "chunk_overlap": {
-                "_input_type": "IntInput",
-                "advanced": false,
-                "display_name": "Chunk Overlap",
-                "dynamic": false,
-                "info": "Number of characters to overlap between chunks.",
-                "list": false,
-                "list_add_label": "Add More",
-                "name": "chunk_overlap",
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_metadata": true,
-                "type": "int",
-                "value": 200
-              },
-              "chunk_size": {
-                "_input_type": "IntInput",
-                "advanced": false,
-                "display_name": "Chunk Size",
-                "dynamic": false,
-                "info": "The maximum length of each chunk. Text is first split by separator, then chunks are merged up to this size. Individual splits larger than this won't be further divided.",
-                "list": false,
-                "list_add_label": "Add More",
-                "name": "chunk_size",
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_metadata": true,
-                "type": "int",
-                "value": 1000
-              },
-              "code": {
-                "advanced": true,
-                "dynamic": true,
-                "fileTypes": [],
-                "file_path": "",
-                "info": "",
-                "list": false,
-                "load_from_db": false,
-                "multiline": true,
-                "name": "code",
-                "password": false,
-                "placeholder": "",
-                "required": true,
-                "show": true,
-                "title_case": false,
-                "type": "code",
-                "value": "from langflow.custom.custom_component.component import Component\r\nfrom langflow.io import DropdownInput, HandleInput, IntInput, MessageTextInput, Output\r\nfrom langflow.schema.data import Data\r\nfrom langflow.schema.dataframe import DataFrame\r\nfrom langchain_text_splitters import CharacterTextSplitter\r\n\r\nclass SplitTextComponent(Component):\r\n    display_name: str = \"Split Text\"\r\n    description: str = \"Split text into chunks based on specified criteria.\"\r\n    documentation: str = \"https://docs.langflow.org/components-processing#split-text\"\r\n    icon = \"scissors-line-dashed\"\r\n    name = \"SplitText\"\r\n\r\n    inputs = [\r\n        HandleInput(\r\n            name=\"data_inputs\",\r\n            display_name=\"Input\",\r\n            info=\"The data with texts to split in chunks.\",\r\n            input_types=[\"Data\", \"DataFrame\", \"Message\"],\r\n            required=True,\r\n        ),\r\n        IntInput(\r\n            name=\"chunk_overlap\",\r\n            display_name=\"Chunk Overlap\",\r\n            info=\"Number of characters to overlap between chunks.\",\r\n            value=200,\r\n        ),\r\n        IntInput(\r\n            name=\"chunk_size\",\r\n            display_name=\"Chunk Size\",\r\n            info=(\r\n                \"The maximum length of each chunk. Text is first split by separator, \"\r\n                \"then chunks are merged up to this size. \"\r\n                \"Individual splits larger than this won't be further divided.\"\r\n            ),\r\n            value=1000,\r\n        ),\r\n        MessageTextInput(\r\n            name=\"separator\",\r\n            display_name=\"Separator\",\r\n            info=(\r\n                \"The character to split on. Use \\\\n for newline. \"\r\n                \"Examples: \\\\n\\\\n for paragraphs, \\\\n for lines, . for sentences\"\r\n            ),\r\n            value=\"\\n\",\r\n        ),\r\n        MessageTextInput(\r\n            name=\"text_key\",\r\n            display_name=\"Text Key\",\r\n            info=\"The key to use for the text column.\",\r\n            value=\"text\",\r\n            advanced=True,\r\n        ),\r\n        DropdownInput(\r\n            name=\"keep_separator\",\r\n            display_name=\"Keep Separator\",\r\n            info=\"Whether to keep the separator in the output chunks and where to place it.\",\r\n            options=[\"False\", \"True\", \"Start\", \"End\"],\r\n            value=\"False\",\r\n            advanced=True,\r\n        ),\r\n    ]\r\n\r\n    outputs = [\r\n        Output(display_name=\"Chunks\", name=\"dataframe\", method=\"split_text\"),\r\n    ]\r\n\r\n    def _docs_to_data(self, docs) -> list[Data]:\r\n        # Only include the text content in Data objects\r\n        return [Data(value=doc.page_content) for doc in docs]\r\n\r\n    def _fix_separator(self, separator: str) -> str:\r\n        \"\"\"Fix common separator issues and convert to proper format.\"\"\"\r\n        if separator == \"/n\":\r\n            return \"\\n\"\r\n        if separator == \"/t\":\r\n            return \"\\t\"\r\n        return separator\r\n\r\n    def split_text_base(self):\r\n        separator = self._fix_separator(self.separator)\r\n\r\n        if isinstance(self.data_inputs, DataFrame):\r\n            if not len(self.data_inputs):\r\n                msg = \"DataFrame is empty\"\r\n                raise TypeError(msg)\r\n\r\n            self.data_inputs.text_key = self.text_key\r\n            try:\r\n                documents = self.data_inputs.to_lc_documents()\r\n            except Exception as e:\r\n                msg = f\"Error converting DataFrame to documents: {e}\"\r\n                raise TypeError(msg) from e\r\n        elif isinstance(self.data_inputs, Message):\r\n            self.data_inputs = [self.data_inputs.to_data()]\r\n            return self.split_text_base()\r\n        else:\r\n            if not self.data_inputs:\r\n                msg = \"No data inputs provided\"\r\n                raise TypeError(msg)\r\n\r\n            documents = []\r\n            if isinstance(self.data_inputs, Data):\r\n                self.data_inputs.text_key = self.text_key\r\n                documents = [self.data_inputs.to_lc_document()]\r\n            else:\r\n                try:\r\n                    documents = [input_.to_lc_document() for input_ in self.data_inputs if isinstance(input_, Data)]\r\n                    if not documents:\r\n                        msg = f\"No valid Data inputs found in {type(self.data_inputs)}\"\r\n                        raise TypeError(msg)\r\n                except AttributeError as e:\r\n                    msg = f\"Invalid input type in collection: {e}\"\r\n                    raise TypeError(msg) from e\r\n        try:\r\n            # Convert string 'False'/'True' to boolean\r\n            keep_sep = self.keep_separator\r\n            if isinstance(keep_sep, str):\r\n                if keep_sep.lower() == \"false\":\r\n                    keep_sep = False\r\n                elif keep_sep.lower() == \"true\":\r\n                    keep_sep = True\r\n                # 'start' and 'end' are kept as strings\r\n\r\n            splitter = CharacterTextSplitter(\r\n                chunk_overlap=self.chunk_overlap,\r\n                chunk_size=self.chunk_size,\r\n                separator=separator,\r\n                keep_separator=keep_sep,\r\n            )\r\n            return splitter.split_documents(documents)\r\n        except Exception as e:\r\n            msg = f\"Error splitting text: {e}\"\r\n            raise TypeError(msg) from e\r\n\r\n    def split_text(self) -> DataFrame:\r\n        return DataFrame(self._docs_to_data(self.split_text_base()))\r\n"
-              },
-              "data_inputs": {
-                "_input_type": "HandleInput",
-                "advanced": false,
-                "display_name": "Input",
-                "dynamic": false,
-                "info": "The data with texts to split in chunks.",
-                "input_types": [
-                  "Data",
-                  "DataFrame",
-                  "Message"
-                ],
-                "list": false,
-                "list_add_label": "Add More",
-                "name": "data_inputs",
-                "placeholder": "",
-                "required": true,
-                "show": true,
-                "title_case": false,
-                "trace_as_metadata": true,
-                "type": "other",
-                "value": ""
-              },
-              "keep_separator": {
-                "_input_type": "DropdownInput",
-                "advanced": true,
-                "combobox": false,
-                "dialog_inputs": {},
-                "display_name": "Keep Separator",
-                "dynamic": false,
-                "info": "Whether to keep the separator in the output chunks and where to place it.",
-                "name": "keep_separator",
-                "options": [
-                  "False",
-                  "True",
-                  "Start",
-                  "End"
-                ],
-                "options_metadata": [],
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "toggle": false,
-                "tool_mode": false,
-                "trace_as_metadata": true,
-                "type": "str",
-                "value": "False"
-              },
-              "separator": {
-                "_input_type": "MessageTextInput",
-                "advanced": false,
-                "display_name": "Separator",
-                "dynamic": false,
-                "info": "The character to split on. Use \\n for newline. Examples: \\n\\n for paragraphs, \\n for lines, . for sentences",
-                "input_types": [
-                  "Message"
-                ],
-                "list": false,
-                "list_add_label": "Add More",
-                "load_from_db": false,
-                "name": "separator",
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_input": true,
-                "trace_as_metadata": true,
-                "type": "str",
-                "value": "\n"
-              },
-              "text_key": {
-                "_input_type": "MessageTextInput",
-                "advanced": true,
-                "display_name": "Text Key",
-                "dynamic": false,
-                "info": "The key to use for the text column.",
-                "input_types": [
-                  "Message"
-                ],
-                "list": false,
-                "list_add_label": "Add More",
-                "load_from_db": false,
-                "name": "text_key",
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_input": true,
-                "trace_as_metadata": true,
-                "type": "str",
-                "value": "text"
-              }
-            },
-            "tool_mode": false
-          },
-          "showNode": true,
-          "type": "SplitText"
-        },
-        "dragging": false,
-        "id": "CustomComponent-XNH0b",
-        "measured": {
-          "height": 413,
-          "width": 320
-        },
-        "position": {
-          "x": -1264.4603541163478,
-          "y": -111.85598309767538
-        },
-        "selected": false,
-        "type": "genericNode"
-      },
-      {
-        "data": {
           "id": "Chroma-Nxdqy",
           "node": {
             "base_classes": [
@@ -3083,7 +2893,7 @@
               },
               "chroma_server_host": {
                 "_input_type": "StrInput",
-                "advanced": true,
+                "advanced": false,
                 "display_name": "Server Host",
                 "dynamic": false,
                 "info": "",
@@ -3098,7 +2908,7 @@
                 "tool_mode": false,
                 "trace_as_metadata": true,
                 "type": "str",
-                "value": ""
+                "value": "chroma:8000"
               },
               "chroma_server_http_port": {
                 "_input_type": "IntInput",
@@ -3267,7 +3077,7 @@
                 "tool_mode": false,
                 "trace_as_metadata": true,
                 "type": "str",
-                "value": "./chroma-db"
+                "value": "/app/chroma-db"
               },
               "search_query": {
                 "_input_type": "QueryInput",
@@ -3344,7 +3154,7 @@
         "dragging": false,
         "id": "Chroma-Nxdqy",
         "measured": {
-          "height": 458,
+          "height": 540,
           "width": 320
         },
         "position": {
@@ -3527,14 +3337,232 @@
           "x": 131.26737241276166,
           "y": 562.8202020129535
         },
-        "selected": true,
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "CustomComponent-J5OHl",
+          "node": {
+            "base_classes": [
+              "DataFrame"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Split text into chunks based on specified criteria.",
+            "display_name": "Split Text",
+            "documentation": "https://docs.langflow.org/components-processing#split-text",
+            "edited": true,
+            "field_order": [
+              "data_inputs",
+              "chunk_overlap",
+              "chunk_size",
+              "separator",
+              "text_key",
+              "keep_separator"
+            ],
+            "frozen": false,
+            "icon": "scissors-line-dashed",
+            "legacy": false,
+            "lf_version": "1.5.0.post1",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Chunks",
+                "group_outputs": false,
+                "hidden": null,
+                "method": "split_text",
+                "name": "dataframe",
+                "options": null,
+                "required_inputs": null,
+                "selected": "DataFrame",
+                "tool_mode": true,
+                "types": [
+                  "DataFrame"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "chunk_overlap": {
+                "_input_type": "IntInput",
+                "advanced": false,
+                "display_name": "Chunk Overlap",
+                "dynamic": false,
+                "info": "Number of characters to overlap between chunks.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "chunk_overlap",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": 200
+              },
+              "chunk_size": {
+                "_input_type": "IntInput",
+                "advanced": false,
+                "display_name": "Chunk Size",
+                "dynamic": false,
+                "info": "The maximum length of each chunk. Text is first split by separator, then chunks are merged up to this size. Individual splits larger than this won't be further divided.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "chunk_size",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": 500
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "\r\nfrom typing import List\r\n\r\nfrom langflow.custom.custom_component.component import Component\r\nfrom langflow.io import (\r\n    DropdownInput,\r\n    HandleInput,\r\n    IntInput,\r\n    MessageTextInput,\r\n    Output,\r\n)\r\nfrom langflow.schema.data import Data\r\nfrom langflow.schema.dataframe import DataFrame\r\nfrom langflow.schema.message import Message\r\nfrom langflow.utils.util import unescape_string\r\n\r\n\r\nclass SplitTextComponent(Component):\r\n    display_name: str = \"Split Text\"\r\n    description: str = \"Split text into chunks based on specified criteria.\"\r\n    documentation: str = \"https://docs.langflow.org/components-processing#split-text\"\r\n    icon = \"scissors-line-dashed\"\r\n    name = \"SplitText\"\r\n\r\n    inputs = [\r\n        HandleInput(\r\n            name=\"data_inputs\",\r\n            display_name=\"Input\",\r\n            info=\"The data with texts to split in chunks.\",\r\n            input_types=[\"Data\", \"DataFrame\", \"Message\"],\r\n            required=True,\r\n        ),\r\n        IntInput(\r\n            name=\"chunk_overlap\",\r\n            display_name=\"Chunk Overlap\",\r\n            info=\"Number of characters to overlap between chunks.\",\r\n            value=200,\r\n        ),\r\n        IntInput(\r\n            name=\"chunk_size\",\r\n            display_name=\"Chunk Size\",\r\n            info=(\r\n                \"The maximum length of each chunk. Text is first split by separator, \"\r\n                \"then chunks are merged up to this size. \"\r\n                \"Individual splits larger than this won't be further divided.\"\r\n            ),\r\n            value=1000,\r\n        ),\r\n        MessageTextInput(\r\n            name=\"separator\",\r\n            display_name=\"Separator\",\r\n            info=(\r\n                \"The character to split on. Use \\\\n for newline. \"\r\n                \"Examples: \\\\n\\\\n for paragraphs, \\\\n for lines, . for sentences\"\r\n            ),\r\n            value=\"\\n\",\r\n        ),\r\n        MessageTextInput(\r\n            name=\"text_key\",\r\n            display_name=\"Text Key\",\r\n            info=\"The key to use for the text column.\",\r\n            value=\"text\",\r\n            advanced=True,\r\n        ),\r\n        DropdownInput(\r\n            name=\"keep_separator\",\r\n            display_name=\"Keep Separator\",\r\n            info=\"Whether to keep the separator in the output chunks and where to place it.\",\r\n            options=[\"False\", \"True\", \"Start\", \"End\"],\r\n            value=\"False\",\r\n            advanced=True,\r\n        ),\r\n    ]\r\n\r\n    outputs = [\r\n        Output(display_name=\"Chunks\", name=\"dataframe\", method=\"split_text\"),\r\n    ]\r\n\r\n    # ------------------------------------------------------------------\r\n    # Helper: the new splitting logic\r\n    # ------------------------------------------------------------------\r\n    @staticmethod\r\n    def _split_text_by_chunk_size(text: str, chunk_size: int, overlap: int) -> List[str]:\r\n        if chunk_size <= 0:\r\n            raise ValueError(\"chunk_size must be > 0\")\r\n        if overlap < 0 or overlap >= chunk_size:\r\n            raise ValueError(\"overlap must be in [0, chunk_size)\")\r\n\r\n        chunks = []\r\n        start = 0\r\n        text_len = len(text)\r\n\r\n        while start < text_len:\r\n            end = start + chunk_size\r\n            if end >= text_len:\r\n                chunks.append(text[start:])\r\n                break\r\n            chunks.append(text[start:end])\r\n            start = end - overlap\r\n\r\n        return chunks\r\n\r\n    # ------------------------------------------------------------------\r\n    # Internal helpers (unchanged except for dropping LangChain splitter)\r\n    # ------------------------------------------------------------------\r\n    def _docs_to_data(self, docs) -> List[Data]:\r\n        return [Data(text=doc.page_content, data=doc.metadata) for doc in docs]\r\n\r\n    def _fix_separator(self, separator: str) -> str:\r\n        \"\"\"Fix common separator issues and convert to proper format.\"\"\"\r\n        if separator == \"/n\":\r\n            return \"\\n\"\r\n        if separator == \"/t\":\r\n            return \"\\t\"\r\n        return separator\r\n\r\n   # ------------------------------------------------------------------\r\n    # Split documents → list of plain strings\r\n    # ------------------------------------------------------------------\r\n    def _split_documents(self, documents) -> list[str]:\r\n        \"\"\"Return only the text chunks, no metadata.\"\"\"\r\n        chunks = []\r\n        for doc in documents:\r\n            text = doc.page_content\r\n            chunks.extend(\r\n                self._split_text_by_chunk_size(\r\n                    text=text,\r\n                    chunk_size=self.chunk_size,\r\n                    overlap=self.chunk_overlap,\r\n                )\r\n            )\r\n        return chunks\r\n\r\n    # ------------------------------------------------------------------\r\n    # Entry point exposed to Langflow\r\n    # ------------------------------------------------------------------\r\n    def split_text(self) -> DataFrame:\r\n        \"\"\"\r\n        Convert incoming Langflow data into LangChain-like documents,\r\n        split them, and return a DataFrame whose rows are the raw text chunks.\r\n        \"\"\"\r\n        # 1. Normalize input to a list of LangChain Document objects\r\n        if isinstance(self.data_inputs, DataFrame):\r\n            if not len(self.data_inputs):\r\n                raise TypeError(\"DataFrame is empty\")\r\n            self.data_inputs.text_key = self.text_key\r\n            documents = self.data_inputs.to_lc_documents()\r\n\r\n        elif isinstance(self.data_inputs, Message):\r\n            documents = [self.data_inputs.to_data().to_lc_document()]\r\n\r\n        else:  # List[Data] or single Data\r\n            if not self.data_inputs:\r\n                raise TypeError(\"No data inputs provided\")\r\n\r\n            if isinstance(self.data_inputs, Data):\r\n                self.data_inputs.text_key = self.text_key\r\n                documents = [self.data_inputs.to_lc_document()]\r\n            else:\r\n                documents = [\r\n                    d.to_lc_document()\r\n                    for d in self.data_inputs\r\n                    if isinstance(d, Data)\r\n                ]\r\n                if not documents:\r\n                    raise TypeError(f\"No valid Data inputs found in {type(self.data_inputs)}\")\r\n\r\n        # 2. Split and wrap results as plain strings\r\n        chunks = self._split_documents(documents)\r\n        return DataFrame([Data(text=chunk) for chunk in chunks])"
+              },
+              "data_inputs": {
+                "_input_type": "HandleInput",
+                "advanced": false,
+                "display_name": "Input",
+                "dynamic": false,
+                "info": "The data with texts to split in chunks.",
+                "input_types": [
+                  "Data",
+                  "DataFrame",
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "data_inputs",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              },
+              "keep_separator": {
+                "_input_type": "DropdownInput",
+                "advanced": true,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Keep Separator",
+                "dynamic": false,
+                "info": "Whether to keep the separator in the output chunks and where to place it.",
+                "name": "keep_separator",
+                "options": [
+                  "False",
+                  "True",
+                  "Start",
+                  "End"
+                ],
+                "options_metadata": [],
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "False"
+              },
+              "separator": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "display_name": "Separator",
+                "dynamic": false,
+                "info": "The character to split on. Use \\n for newline. Examples: \\n\\n for paragraphs, \\n for lines, . for sentences",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "separator",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "\n"
+              },
+              "text_key": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Text Key",
+                "dynamic": false,
+                "info": "The key to use for the text column.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "text_key",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "text"
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "SplitText"
+        },
+        "dragging": false,
+        "id": "CustomComponent-J5OHl",
+        "measured": {
+          "height": 413,
+          "width": 320
+        },
+        "position": {
+          "x": -1241.802259857308,
+          "y": -89.884336834327
+        },
+        "selected": false,
         "type": "genericNode"
       }
     ],
     "viewport": {
-      "x": 469.53691803894935,
-      "y": -70.73713477608555,
-      "zoom": 0.6373870123182742
+      "x": 852.8377058576348,
+      "y": 19.19499550458852,
+      "zoom": 0.6373870123182745
     }
   },
   "description": "Smart Chains, Smarter Conversations.",

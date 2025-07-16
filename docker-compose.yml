@@ -17,6 +17,7 @@ services:
     restart: unless-stopped
     volumes:
       - langflow-data:/app/langflow
+      - ./chroma-db:/app/chroma-db
 
   postgres:
     image: postgres:16
@@ -43,6 +44,11 @@ services:
     container_name: chroma
     ports:
       - "8000:8000"
+    environment:
+      - IS_PERSISTENT=TRUE
+      - PERSIST_DIRECTORY=/chroma/chroma
+    volumes:
+      - ./chroma-db:/chroma/chroma
     restart: unless-stopped
 
 volumes:

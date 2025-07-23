@@ -11,7 +11,7 @@ This is a chatbot using Langflow with RAG functionality, backed by Ollama and Ch
 
 1. Clone the repository:
    - git clone https://github.com/ToivoSeppa/chatbot-hanna
-   - cd my-chatbot-project
+   - cd chatbot-hanna
 
 
 2. Start all services:
